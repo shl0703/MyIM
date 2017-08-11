@@ -3,7 +3,7 @@ package com.example.shl.mylib.bean;
 import java.util.List;
 
 /**
- * Created by suhon on 2017/3/27.
+ * Created by shl on 2017/3/27.
  */
 
 public class BaseJson {
