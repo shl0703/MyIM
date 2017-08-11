@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="loading_bg_transport">#F5F6F6</color>
+    <color name="divder_color">#d1d0d0</color>
+    <color name="gray00">#EEEEEE</color>
+    <color name="gray01">#F7F7F7</color>
+</resources>
