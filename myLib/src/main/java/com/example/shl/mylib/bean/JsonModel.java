@@ -6,6 +6,7 @@ import java.util.List;
  * JSON 基础模型
  */
 public class JsonModel<T> {
+
     private int code;
     private String message;
     private T Data;
@@ -35,11 +36,12 @@ public class JsonModel<T> {
     }
 
     /**
-     *是否操作成功
+     * 是否操作成功
+     *
      * @return
      */
     public boolean isSuccess() {
-        if (code ==0) {
+        if (code == 0) {
             return true;
         } else {
             return false;
@@ -47,7 +49,8 @@ public class JsonModel<T> {
     }
 
     /**
-     *判断有没有数据
+     * 判断有没有数据
+     *
      * @return
      */
     public boolean hasData() {
